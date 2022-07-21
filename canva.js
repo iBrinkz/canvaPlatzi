@@ -1,9 +1,13 @@
 var d = document.getElementById("cuadrito_canva");
 var lienzo = d.getContext("2d");
+var lineas = 30;
+var l = 0;
 
-dibujarLinea("black", 20, 260, 300, 30);
-dibujarLinea("brown", 100, 120, 340, 266);
-dibujarLinea("red", 50, 120, 350, 40);
+while(l < lineas){
+    dibujarLinea("#FAF", 0, 0, 10, 300);
+    console.log("Linea " + l);
+    l++;
+}
 
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal){
     lienzo.beginPath();
