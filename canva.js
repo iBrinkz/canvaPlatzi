@@ -5,12 +5,11 @@ var l = 0;
 var yi, xf;
 var colorcito = "red";
 
-while(l < lineas){
+for(l =0; l < 30; l++){
     yi = 10 * l;
     xf = 10 * (l + 1);
     dibujarLinea(colorcito, 0, yi, xf, 300);
     console.log("Linea " + l);
-    l++;
 }
 
 dibujarLinea(colorcito, 1, 1, 1, 300);
