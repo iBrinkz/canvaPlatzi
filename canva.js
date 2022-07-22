@@ -15,7 +15,6 @@ for(l =0; l < 30; l++){
 dibujarLinea(colorcito, 1, 1, 1, 300);
 dibujarLinea(colorcito, 1, 299, 299, 299);
 
-
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal){
     lienzo.beginPath();
     lienzo.strokeStyle = color;
